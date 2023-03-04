@@ -10,3 +10,4 @@ FROM
     Cage
     INNER JOIN Chicken on Cage.id = Chicken.cageId
 GROUP BY Cage.workshopNumber, Chicken.breedName;
+
